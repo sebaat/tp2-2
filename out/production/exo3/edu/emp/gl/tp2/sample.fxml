@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="384.0" prefWidth="485.0" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.emp.gl.tp2.Controller">
+   <children>
+      <Label fx:id="timeLabel" text="">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#startButton" text="START" />
+            <HBox fx:id="settingHbox" alignment="CENTER" disable="true" prefHeight="100.0" prefWidth="226.0" spacing="10.0">
+               <children>
+                  <Button fx:id="plus_hour" mnemonicParsing="false" onAction="#changeTime" text="+H" />
+                  <Button fx:id="minus_hour" mnemonicParsing="false" onAction="#changeTime" text="-H" />
+                  <Button fx:id="plus_minute" mnemonicParsing="false" onAction="#changeTime" text="+M" />
+                  <Button fx:id="minus_minute" mnemonicParsing="false" onAction="#changeTime" text="-M" />
+                  <Button mnemonicParsing="false" onAction="#pauseButton" text="PAUSE" />
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+   </children>
+</VBox>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="controlsfx-8.40.17-sources-chakib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/notification_chakib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/libs/controlsfx-8.40.17-sources-chakib.jar!/" />
+    </SOURCES>
+  </library>
+</component>
